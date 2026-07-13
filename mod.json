@@ -1,0 +1,79 @@
+{
+    "geode": "5.5.3",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "unknown.hitboxe-overlay",
+    "name": "Hitbox Overlay POF",
+    "version": "v1.0.0",
+    "developer": "anticroom",
+    "description": "External Hitbox Overlay using IMGUI",
+    "dependencies": {
+        "geode.node-ids": ">=v1.23.3"
+    },
+    "settings": {
+        "streamproof": {
+            "name": "Streamproof Overlay",
+            "type": "bool",
+            "default": true
+        },
+        "bg-opacity": {
+            "name": "Background Opacity",
+            "type": "float",
+            "default": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "control": { "slider": true }
+        },
+        "fill-hitboxes": {
+            "name": "Fill Hitboxes",
+            "type": "bool",
+            "default": false
+        },
+        "fill-opacity": {
+            "name": "Fill Opacity",
+            "type": "float",
+            "default": 0.3,
+            "min": 0.0,
+            "max": 1.0,
+            "control": { "slider": true }
+        },
+        "solid-color": {
+            "name": "Solid Color",
+            "type": "color",
+            "default": "#00FFFF"
+        },
+        "danger-color": {
+            "name": "Hazard Color",
+            "type": "color",
+            "default": "#FF0000"
+        },
+        "match-tick": {
+            "name": "Match TPS",
+            "type": "bool",
+            "default": true
+        },
+        "fps-cap": {
+            "name": "FPS Cap",
+            "type": "int",
+            "default": 240,
+            "min": 30,
+            "max": 1000
+        },
+        "hitbox-trail": {
+            "name": "Hitbox Trail",
+            "type": "bool",
+            "default": false
+        },
+        "trail-length": {
+            "name": "Trail Length",
+            "type": "int",
+            "default": 10,
+            "min": 1,
+            "max": 1000
+        }
+    }
+}
